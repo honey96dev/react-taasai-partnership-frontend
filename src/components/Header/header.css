@@ -1,0 +1,24 @@
+.navbar ul li a {
+  position: relative;
+}
+
+.navbar ul li a:hover:after, .navbar ul li.is-current a:after {
+  transform: scaleX(1);
+  transform-origin: left center 0px;
+  transition: transform 0.35s cubic-bezier(0.43, 0.49, 0.51, 0.68) 0s;
+}
+
+.navbar ul li a:after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 9px;
+  bottom: 5px;
+  left: 12px;
+  /*right: 16px;*/
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: right center 0px;
+  background: linear-gradient(to left, rgb(184, 174, 230), rgb(194, 199, 251));
+  transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}

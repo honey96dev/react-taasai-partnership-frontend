@@ -1,0 +1,54 @@
+{
+  "name": "appco",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://appco-react.themetags.com",
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^5.8.2",
+    "axios": "^0.19.2",
+    "dateformat": "^3.0.3",
+    "formik": "^2.1.4",
+    "formik-error-focus": "^1.0.0",
+    "numeral": "^2.0.6",
+    "react": "^16.13.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-data-table-component": "^6.3.1",
+    "react-dom": "^16.13.1",
+    "react-phone-number-input": "^3.0.22",
+    "react-redux": ">=7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.1",
+    "react-scrollspy": "^3.4.2",
+    "react-scrollspy-nav": "^1.2.3",
+    "react-toastify": "^5.5.0",
+    "redux": ">=4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-state-sync": "^3.1.1",
+    "styled-components": "^5.0.1",
+    "yup": "^0.28.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

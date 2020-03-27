@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+  .street-img-container {
+    /*position: fixed;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    background-image: url("/img/background.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+}
+
+.street-img-right-div {
+  background-image: url("/img/background.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .street-img-right-div {
+    background-image: none;
+  }
+}
